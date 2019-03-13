@@ -1,4 +1,5 @@
 <?php 
+//zhenquan
 session_start();
 if (!isset($_SESSION['userName'])){
 $uidUser = 'YOU HAVE NOT LOGIN!!';	

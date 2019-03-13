@@ -3,7 +3,9 @@
    <head>
    </head>
    <body>
-      <?php include ('header.php');
+      
+	  <?php include ('header.php');
+	  //zhenquan
 	  if (!isset($_SESSION['userName'])){
 			header("Location: signin.php");}
 			
